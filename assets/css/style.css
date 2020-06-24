@@ -1,13 +1,24 @@
+/***
+ First External CSS Stylesheet
+ ***/
+
+ /**
+ Semantic Elements and their child classes
+ **/
+
+ /* Positioning */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Main Body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header & Nav section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +52,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Link and Paragraph Styles */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +62,8 @@ p {
     font-size: 16px;
 }
 
-figure img{
+/* Hero Image */
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,6 +71,7 @@ figure img{
     object-position: center;
 }
 
+/* Main 3 Sections */
 section {
     width: 75%;
     display: inline-block;
@@ -82,6 +96,7 @@ section h2 {
     font-size: 36px;
 }
 
+/* Side Bar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -109,6 +124,7 @@ aside img {
     max-width: 150px;
 }
 
+/* Footer with copyright */
 footer {
     padding: 30px;
     clear: both;
@@ -119,6 +135,8 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+/** Classes **/
 
 .float-left {
     float: left;
